@@ -1,0 +1,86 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>web form</title>
+</head>
+<body>
+    
+   
+<header>
+    <h1>Web Development Survey</h1>
+    <p>Help us understand your web development background and interests.</p>
+</header>
+<main>
+    <form action ="/action.php">
+    <label for="name"><br>
+       <b>1.Name:</b>
+        <input type="text" name="Name" id="name" placeholder="Enter your Full name">
+    </label>
+    <br><br>
+    <label for="email">
+        <b>2.Email:</b>
+        <input type="email" name="Email" id="email" placeholder="Enter your Email Address">
+    </label>
+    <br><br>
+     <label for="phone">
+       <b>3.phone:</b>
+        <input type="tel" name="phone" id="phone" placeholder="Enter your mobile number">
+    </label>
+    <br><br>
+<label for="branch"><b>4. Branch:</b></label><br><br>
+
+<select id="branch" name="branch">
+    <option value="cse">CSE</option>
+    <option value="ece">ECE</option>
+    <option value="mech">MECH</option>
+    <option value="civil">CIVIL</option>
+</select>
+<br><br>
+
+<label for="year"><b>5. Year of study:</b></label><br><br>
+
+<select id="year" name="year">
+    <option value="first">First</option>
+    <option value="second">Second</option>
+    <option value="third">Third</option>
+    <option value="fourth">Fourth</option>
+</select>
+<br><br>
+<label><b>6. Which skills do you have?</b></label><br><br>
+<label for="cpp">
+<input type="checkbox"  value ="C/C++" name="skill" id="cpp">C/C++
+
+</label><br><br> 
+<label for="python">
+<input type="checkbox"  value ="python" name="skill" id="python">Python
+
+</label><br><br> 
+<label for="java">
+<input type="checkbox"  value ="java" name="skill" id="java">Java
+
+</label><br><br> 
+<label for="web-development">
+<input type="checkbox"  value ="web-development" name="skill" id="web-development">Web Development
+
+</label><br><br> 
+<label><b>7. What is your current level in web development?</b></label><br><br>
+<input type="radio" name="level" value= "beginner" id="beginner">beginner
+<input type="radio" name="level" value ="intermediate" id="intermediate">intermediate
+<input type="radio" name="level" value ="advanced" id="advanced">Advanced
+<br><br>
+<label><b>8. Why do you want to learn web development?</b></label><br><br>
+<textarea name="question" id="question" rows="5" cols="30" ></textarea><br><br>
+    <button type="submit" style="padding:10px 25px; font-size:16px;">
+    Submit
+</button>
+ </form>
+</main>
+   
+    <footer>
+        <p>&copy; 2026 | Web Development Survey</p>
+    </footer>
+</body>
+</html>
